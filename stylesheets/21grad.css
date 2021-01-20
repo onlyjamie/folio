@@ -32,6 +32,7 @@
 }
 
 #grad21 h1, #grad21 h2, #grad21 h3 {
+  font-family: var(--21g-serif);
 }
 
 @media screen and (min-width: 64em) {

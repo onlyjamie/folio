@@ -45,11 +45,12 @@ body {
 }
 
 #grad21 h1 {
- font-size: 2.75rem;
+ font-size: 3.5rem;
+ margin-bottom: -1em;
 }
 
 #hero { border: 1px solid yellow; padding: 1em; }
-#info { border: 1px solid red; }
+#info { border: 1px solid red; padding: 2em 0; }
 
 @media screen and (min-width: 64em) {
  #grad21 { padding: 8em 10em; } 

@@ -1,0 +1,34 @@
+#21grad {
+  --21g-serif: 'Corben', serif;
+  --21g-sans: 'Work Sans', sans-serif;
+  --21g-teal: #2DEEE5;
+  --21g-green: #6EC540;
+  --21g-white: 255, 255, 255;
+  --21g-grad: linear-gradient(45deg, var(--21g-green), var(--21g-teal));
+  font-family: var(--21g-serif);
+  text-align: left;
+}
+
+#21grad a {
+  font-family: var(--21g-sans);
+}
+
+#21grad .page-header {
+  background: var(--21g-grad);
+}
+
+.grid-1 {
+  width: 100%;
+}
+
+@media screen and (min-width: 64em) {
+  .grid-2 {
+    width: 50%; } }
+
+@media screen and (min-width: 42em) and (max-width: 64em) {
+  .grid-2 {
+    width: 50%; } }
+
+@media screen and (max-width: 42em) {
+  .grid-2 {
+    width: 100%; } }

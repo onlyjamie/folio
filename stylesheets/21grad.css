@@ -1,3 +1,7 @@
+body {
+ max-height: 100%;
+}
+
 #grad21 {
   --21g-serif: 'Corben', serif;
   --21g-sans: 'Work Sans', sans-serif;
@@ -11,10 +15,9 @@
   display: flex;
   flex-wrap: wrap;
   background: var(--21g-grad);
-  max-height: 100%;
 }
 
-.btn {
+#grad21 .btn {
   padding: 10px;
 }
 
@@ -30,7 +33,7 @@
 }
 
 #hero {
-  align-items: flex-end;
+  align-self: flex-end;
 }
 
 .grid-1 {
@@ -38,7 +41,7 @@
 }
 
 #grad21 h1, #grad21 h2, #grad21 h3 {
-  font-family: var(--21g-serif);
+  font-family: var(--21g-serif) !important;
   font-weight: 400;
 }
 

@@ -41,7 +41,8 @@ body {
 }
 
 .grid-1 {
-  width: 100%;
+ width: 100%;
+ order: 3;
 }
 
 #grad21 h1, #grad21 h2, #grad21 h3 {

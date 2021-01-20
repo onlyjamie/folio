@@ -12,6 +12,7 @@ body {
   --21g-white: 255, 255, 255;
   --21g-grad: linear-gradient(45deg, var(--21g-green), var(--21g-teal));
   --21g-tran: ease 0.6s;
+  height: 100%;
   font-family: var(--21g-serif);
   text-align: left;
   display: flex;
@@ -20,7 +21,8 @@ body {
 }
 
 #grad21 .btn {
-  padding: 10px;
+  text-align: center;
+  padding: 10px 20px;
 }
 
 #grad21 a {
@@ -35,7 +37,7 @@ body {
 }
 
 #hero {
-  align-self: flex-end;
+ order: 2;
 }
 
 .grid-1 {
@@ -43,8 +45,10 @@ body {
 }
 
 #grad21 h1, #grad21 h2, #grad21 h3 {
-  font-family: var(--21g-serif) !important;
+  color: rgb(var(--21g-white));
+  font-family: var(--21g-serif);
   font-weight: 400;
+  line-height: 1;
 }
 
 @media screen and (min-width: 64em) {

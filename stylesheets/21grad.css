@@ -54,18 +54,19 @@ body {
   font-family: var(--21g-serif);
   font-weight: 400;
   line-height: 1.3;
+  margin-bottom: 0;
 }
 
 @media screen and (min-width: 64em) {
- #grad21 { padding: 0 4em; }
+ #grad21 { padding: 4em 8em; }
  .grid-2 { width: 50%; } }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
-  #grad21 { padding: 0 2em; }
+  #grad21 { padding: 2em 4em; }
   .grid-2 { width: 50%; } }
 
 @media screen and (max-width: 42em) {
-  #grad21 { padding: 0 1em; }
+  #grad21 { padding: 1em 2em; }
   .grid-2 { width: 100%; } }
 
 p {

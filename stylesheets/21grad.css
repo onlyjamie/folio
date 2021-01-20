@@ -36,6 +36,10 @@ body {
     color: rgb(var(--21g-grad),1);
 }
 
+#hero {
+ flex-shrink: 1;
+}
+
 #hero img {
  max-width: 400px;
 }
@@ -59,17 +63,17 @@ body {
 .grid-2 { border: 1px solid yellow; }
 
 @media screen and (min-width: 64em) {
- #grad21 { padding: 8em 12em; } 
+ #grad21 { padding: 8em; } 
  .grid-2 { width: 50%; } 
  #hero { order: 2; } }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
-  #grad21 { padding: 4em 8em; } 
+  #grad21 { padding: 6em; } 
   .grid-2 { width: 50%; } 
   #hero { order: 2; } }
 
 @media screen and (max-width: 42em) {
-  #grad21 { padding: 2em 4em; }
+  #grad21 { padding: 3em; }
   .grid-2 { width: 100%; } 
   #hero { order: 1; } }
 

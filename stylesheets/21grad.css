@@ -33,6 +33,7 @@
 
 #grad21 h1, #grad21 h2, #grad21 h3 {
   font-family: var(--21g-serif);
+  font-weight: 400;
 }
 
 @media screen and (min-width: 64em) {
@@ -46,3 +47,7 @@
 @media screen and (max-width: 42em) {
   .grid-2 {
     width: 100%; } }
+
+.btn {
+  padding: 10px;
+}

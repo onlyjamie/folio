@@ -20,7 +20,7 @@ body {
   background: var(--21g-grad);
 }
 
-#grad21 > * {
+#hero, #info {
  height: auto;
 }
 
@@ -50,7 +50,7 @@ body {
 
 #grad21 h1 {
  font-size: 4rem;
- margin-bottom: -2rem;
+ margin-bottom: -1.5rem;
 }
 
 #hero { border: 1px solid yellow; padding: 1em; }
@@ -71,9 +71,9 @@ body {
 @media screen and (max-width: 42em) {
   #grad21 { padding: 3em; } } 
   #hero { order: 1; } 
-  #hero img { max-width: 100px; }}
+  #hero img { max-width: 150px; }}
 
 p {
- line-height: 1.5;
+ line-height: 1.25;
  margin: 0;
 }

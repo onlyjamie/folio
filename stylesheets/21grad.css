@@ -40,6 +40,10 @@ body {
  order: 2;
 }
 
+#hero img {
+ width: 75%;
+}
+
 .grid-1 {
  width: 100%;
  order: 3;

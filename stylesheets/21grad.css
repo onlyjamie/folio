@@ -45,11 +45,7 @@ body {
 }
 
 #grad21 h1 {
- font-size: 250%;
-}
-
-#grad21 h2:first-child {
- margin-bottom: 1em;
+ font-size: 2.75rem;
 }
 
 .grid-2 { border: 1px solid yellow; }

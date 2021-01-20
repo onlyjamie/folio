@@ -21,7 +21,7 @@ body {
 }
 
 #hero, #info {
- height: auto;
+ max-height: 80%;
 }
 
 #grad21 .btn {

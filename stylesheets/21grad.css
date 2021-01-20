@@ -1,26 +1,37 @@
-#21grad {
+#grad21 {
   --21g-serif: 'Corben', serif;
   --21g-sans: 'Work Sans', sans-serif;
   --21g-teal: #2DEEE5;
   --21g-green: #6EC540;
   --21g-white: 255, 255, 255;
   --21g-grad: linear-gradient(45deg, var(--21g-green), var(--21g-teal));
+  --21g-tran: ease 0.6s;
   font-family: var(--21g-serif);
-  text-align: left !important;
+  text-align: left;
   display: flex;
   flex-wrap: wrap;
 }
 
-#21grad a {
+#grad21 a {
   font-family: var(--21g-sans);
+  color: rgb(var(--21g-white));
+  padding: 0 1px;
+  transition: var(--21g-tran);
 }
 
-#21grad .page-header {
+#grad21 a:hover {
+    background: rgb(var(--21g-grad),0.2);
+}
+
+#grad21 .page-header {
   background: var(--21g-grad);
 }
 
 .grid-1 {
   width: 100%;
+}
+
+#grad21 h1, #grad21 h2, #grad21 h3 {
 }
 
 @media screen and (min-width: 64em) {

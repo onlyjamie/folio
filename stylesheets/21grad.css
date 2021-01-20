@@ -27,13 +27,13 @@ body {
 
 #grad21 a {
   font-family: var(--21g-sans);
-  color: rgb(var(--21g-white));
+  color: rgb(var(--21g-white),0.5);
   padding: 0 1px;
   transition: var(--21g-tran);
 }
 
 #grad21 a:hover {
-    background: rgb(var(--21g-grad),0.2);
+    color: rgb(var(--21g-grad),1);
 }
 
 #hero {
@@ -58,15 +58,15 @@ body {
 }
 
 @media screen and (min-width: 64em) {
- #grad21 { margin: 4em 8em; }
+ #grad21 { padding: 8em 12em; }
  .grid-2 { width: 50%; } }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
-  #grad21 { margin: 2em 4em; }
+  #grad21 { padding: 4em 8em; }
   .grid-2 { width: 50%; } }
 
 @media screen and (max-width: 42em) {
-  #grad21 { margin: 1em 2em; }
+  #grad21 { padding: 2em 4em; }
   .grid-2 { width: 100%; } }
 
 p {

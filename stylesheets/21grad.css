@@ -20,10 +20,6 @@ body {
   background: var(--21g-grad);
 }
 
-#hero, #info {
- max-height: 80%;
-}
-
 #grad21 .btn {
   text-align: center;
   padding: 10px 20px;

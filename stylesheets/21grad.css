@@ -10,6 +10,12 @@
   text-align: left;
   display: flex;
   flex-wrap: wrap;
+  background: var(--21g-grad);
+  max-height: 100%;
+}
+
+.btn {
+  padding: 10px;
 }
 
 #grad21 a {
@@ -23,8 +29,8 @@
     background: rgb(var(--21g-grad),0.2);
 }
 
-#grad21 .page-header {
-  background: var(--21g-grad);
+#hero {
+  align-items: flex-end;
 }
 
 .grid-1 {
@@ -47,7 +53,3 @@
 @media screen and (max-width: 42em) {
   .grid-2 {
     width: 100%; } }
-
-.btn {
-  padding: 10px;
-}

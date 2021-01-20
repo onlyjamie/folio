@@ -63,9 +63,9 @@ body {
   #hero img { max-width: 200px; } }
 
 @media screen and (max-width: 42em) {
-  #grad21 { padding: 3em; } } 
+  #grad21 { padding: 3em; }
   #hero { order: 1; } 
-  #hero img { max-width: 150px; }}
+  #hero img { max-width: 150px; } }
 
 p {
  line-height: 1;

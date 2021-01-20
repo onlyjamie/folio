@@ -58,15 +58,15 @@ body {
 }
 
 @media screen and (min-width: 64em) {
- #grad21 { padding: 8em 12em; }
+ /* #grad21 { padding: 8em 12em; } */
  .grid-2 { width: 50%; } }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
-  #grad21 { padding: 4em 8em; }
+  /* #grad21 { padding: 4em 8em; } */
   .grid-2 { width: 50%; } }
 
 @media screen and (max-width: 42em) {
-  #grad21 { padding: 2em 4em; }
+  /* #grad21 { padding: 2em 4em; } */
   .grid-2 { width: 100%; } }
 
 p {

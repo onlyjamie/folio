@@ -1,5 +1,7 @@
 body {
+ background-size: cover;
  max-height: 100%;
+ margin: 0;
 }
 
 #grad21 {
@@ -56,3 +58,8 @@ body {
 @media screen and (max-width: 42em) {
   .grid-2 {
     width: 100%; } }
+
+p {
+ line-height: 1.5;
+ margin: 0;
+}

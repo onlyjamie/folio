@@ -27,7 +27,7 @@ body {
 
 #grad21 a {
   font-family: var(--21g-sans);
-  color: rgb(var(--21g-white),0.8);
+  color: rgb(var(--21g-white),0.7);
   padding: 0 1px;
   transition: var(--21g-tran);
 }
@@ -48,24 +48,23 @@ body {
  font-size: 2.75rem;
 }
 
-#hero { border: 1px solid yellow; }
+#hero { border: 1px solid yellow; padding: 1em; }
 #info { border: 1px solid red; }
 
 @media screen and (min-width: 64em) {
- #grad21 { padding: 8em; } 
+ #grad21 { padding: 8em 10em; } 
  #info { flex-grow: 2; } 
  #hero { order: 2; } 
  #hero img { max-width: 400px; } }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
   #grad21 { padding: 6em; } 
-  #info { flex-grow: 2; } 
+  #info { flex-grow: 1; } 
   #hero { order: 2; } 
   #hero img { max-width: 200px; } }
 
 @media screen and (max-width: 42em) {
-  #grad21 { padding: 3em; }
-  #info { flex-grow: 1; } 
+  #grad21 { padding: 3em; } } 
   #hero { order: 1; } 
   #hero img { max-width: 100px; }}
 

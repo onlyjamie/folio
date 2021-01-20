@@ -69,5 +69,7 @@ body {
   #hero img { max-width: 150px; } }
 
 p {
- line-height: 1;
+ border: 1px solid cyan;
+ line-height: 1.25;
+ margin-bottom: 0;
 }

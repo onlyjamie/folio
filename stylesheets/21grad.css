@@ -6,7 +6,9 @@
   --21g-white: 255, 255, 255;
   --21g-grad: linear-gradient(45deg, var(--21g-green), var(--21g-teal));
   font-family: var(--21g-serif);
-  text-align: left;
+  text-align: left !important;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 #21grad a {

@@ -20,7 +20,8 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  background: var(--21g-grad) cover;
+  background: var(--21g-grad);
+  background-size: cover;
 }
 
 #grad21 .btn {

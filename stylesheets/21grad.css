@@ -50,18 +50,22 @@ body {
  margin-bottom: -1.5rem;
 }
 
-#hero { border: 1px solid yellow; padding: 1em; }
+#grad21 h2 {
+ margin-bottom: 0.5rem;
+}
+
+#hero { border: 1px solid yellow; padding: 1em 2em; }
 #info { border: 1px solid red; padding: 2em 0; }
 
 @media screen and (min-width: 64em) {
- #grad21 { padding: 8em 10em; } 
+ #grad21 { padding: 8em; } 
  #hero { order: 2; } 
  #hero img { max-width: 400px; } }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
   #grad21 { padding: 6em; } 
   #hero { order: 2; } 
-  #hero img { max-width: 200px; } }
+  #hero img { max-width: 250px; } }
 
 @media screen and (max-width: 42em) {
   #grad21 { padding: 3em; }
@@ -71,5 +75,5 @@ body {
 p {
  border: 1px solid cyan;
  line-height: 1.25;
- margin-bottom: 0;
+ margin-top: -1rem;
 }

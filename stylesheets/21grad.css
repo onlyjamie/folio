@@ -61,19 +61,16 @@ body {
 
 @media screen and (min-width: 64em) {
  #grad21 { padding: 4em; } 
- #hero { order: 2; } 
  #hero img { max-width: 400px; } 
  .grid-50 { width: 50%; } }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
   #grad21 { padding: 2em; } 
-  #hero { order: 2; } 
   #hero img { max-width: 250px; } 
  .grid-50 { width: 50%; } }
 
 @media screen and (max-width: 42em) {
   #grad21 { padding: 1em; }
-  #hero { order: 1; } 
   #hero img { max-width: 150px; } 
  .grid-50 { width: 100%; } }
 

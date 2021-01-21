@@ -1,6 +1,6 @@
 body {
  background-size: cover;
- height: 100vh;
+ height: 100%;
  margin: 0;
 }
 
@@ -41,12 +41,13 @@ body {
 }
 
 p {
- padding: 4px;
  line-height: 1;
  margin-top: -0.75rem;
 }
 
 p a {
+ padding: 4px;
+ display: inline-block;
  border-radius: 4px;
 }
 

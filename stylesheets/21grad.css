@@ -5,8 +5,8 @@ body {
 }
 
 #grad21 {
-  --21g-serif: 'Corben', serif;
-  --21g-sans: 'Work Sans', sans-serif;
+  --21g-serif: 'Corben', Georgia, serif;
+  --21g-sans: 'Rubik', Proxima Nova, Helvetica, sans-serif;
   --21g-teal: #2DEEE5;
   --21g-green: #6EC540;
   --21g-white: 255, 255, 255;

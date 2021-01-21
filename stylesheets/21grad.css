@@ -58,10 +58,10 @@ body {
 
 #hero { border: 1px solid yellow; padding: 0; }
 #info { border: 1px solid red; padding: 2em; }
+#info > * { border: 1px solid purple; }
 
 .flex { margin: 0; }
 
-.grid-100 { border: 1px solid purple; width: 100%; padding: 0 2em; }
 .grid-60 { width: 60%; }
 .grid-40 { width: 40%; }
 

@@ -41,11 +41,13 @@ body {
 }
 
 p a {
- border-bottom: 1px solid rgb(var(--21g-white), 0);;
+ /* border-bottom: 1px solid rgb(var(--21g-white), 0); */
+ padding: 0 2px;
+ border-radius: 2px;
 }
 
 p a:hover {
-  border-bottom: 1px solid rgb(var(--21g-white), 1);
+  /* border-bottom: 1px solid rgb(var(--21g-white), 1); */
   background: rgb(var(--21g-white), 0.2);
   text-decoration: none;
 }

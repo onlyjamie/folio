@@ -42,8 +42,8 @@ body {
 
 p a {
  /* border-bottom: 1px solid rgb(var(--21g-white), 0); */
- padding: 0 2px;
- border-radius: 2px;
+ padding: 4px;
+ border-radius: 4px;
 }
 
 p a:hover {
@@ -96,6 +96,6 @@ p a:hover {
  /* .flex { width: 100%; } */ }
 
 p {
- line-height: 1.25;
+ line-height: 1;
  margin-top: -0.75rem;
 }

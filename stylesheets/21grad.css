@@ -57,7 +57,7 @@ body {
 #hero { border: 1px solid yellow; padding: 0; }
 #info { border: 1px solid red; padding: 2em; }
 
-.grid-100 { width: 100%; }
+.grid-100 { width: 100%; padding: 2em; }
 
 @media screen and (min-width: 64em) {
  #grad21 { padding: 4em; } 

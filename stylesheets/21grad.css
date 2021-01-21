@@ -19,7 +19,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
+  align-content: center;
   background: var(--21g-grad);
   background-size: cover;
 }
@@ -57,9 +57,8 @@ body {
  margin-bottom: 0.75rem;
 }
 
-#hero { border: 1px solid yellow; padding: 0; }
-#info { border: 1px solid red; padding: 2em; }
-#info > * { border: 1px solid purple; }
+#hero { padding: 0; }
+#info { padding: 2em; }
 
 .flex { margin: 0; }
 

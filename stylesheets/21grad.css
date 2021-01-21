@@ -41,14 +41,14 @@ body {
 }
 
 p {
- line-height: 1.5;
+ line-height: 1.75;
  margin-top: -0.75rem;
 }
 
 p a {
- padding: 4px;
+ padding: 8px;
  display: inline-block;
- border-radius: 4px;
+ border-radius: 8px;
 }
 
 p a:hover {
@@ -74,16 +74,10 @@ p a:hover {
 }
 
 #hero { padding: 0; }
-#info { padding: 2em; }
+#info { padding: 2em 2em 0; }
 
 #info div { padding-top: 1.5em; }
-
 .flex { margin: 0; }
-
-/* 
-.grid-60 { width: 60%; }
-.grid-40 { width: 40%; }
-*/
 
 @media screen and (min-width: 64em) {
  #grad21 { padding: 4em; } 
@@ -96,5 +90,4 @@ p a:hover {
 @media screen and (max-width: 42em) {
   #grad21 { padding: 0; margin: 0; }
   #grad21 h1 { font-size: 2.5rem; }
-  #hero img { max-width: 150px; margin: 0 auto; } 
- /* .flex { width: 100%; } */ }
+  #hero img { max-width: 150px; margin: 0 auto; } }

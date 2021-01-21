@@ -58,17 +58,17 @@ body {
 #info { border: 1px solid red; padding: 2em; }
 
 @media screen and (min-width: 64em) {
- #grad21 { padding: 8em; } 
+ #grad21 { padding: 5em; } 
  #hero { order: 2; } 
  #hero img { max-width: 400px; } }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
-  #grad21 { padding: 6em; } 
+  #grad21 { padding: 4em; } 
   #hero { order: 2; } 
   #hero img { max-width: 250px; } }
 
 @media screen and (max-width: 42em) {
-  #grad21 { padding: 3em; }
+  #grad21 { padding: 2.5em; }
   #hero { order: 1; } 
   #hero img { max-width: 150px; } }
 

@@ -40,14 +40,17 @@ body {
   color: rgb(var(--21g-grad),1);
 }
 
-p a {
- /* border-bottom: 1px solid rgb(var(--21g-white), 0); */
+p {
  padding: 4px;
+ line-height: 1;
+ margin-top: -0.75rem;
+}
+
+p a {
  border-radius: 4px;
 }
 
 p a:hover {
-  /* border-bottom: 1px solid rgb(var(--21g-white), 1); */
   background: rgb(var(--21g-white), 0.2);
   text-decoration: none;
 }
@@ -90,12 +93,7 @@ p a:hover {
   #hero img { max-width: 250px; margin: 0 auto; } }
 
 @media screen and (max-width: 42em) {
-  #grad21 { padding: 0; }
+  #grad21 { padding: 0; margin: 0; }
   #grad21 h1 { font-size: 2.5rem; }
   #hero img { max-width: 150px; margin: 0 auto; } 
  /* .flex { width: 100%; } */ }
-
-p {
- line-height: 1;
- margin-top: -0.75rem;
-}

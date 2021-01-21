@@ -61,21 +61,21 @@ body {
 .flex { margin: 0; }
 
 .grid-100 { border: 1px solid purple; width: 100%; padding: 0 2em; }
+.grid-60 { width: 60%; }
+.grid-40 { width: 40%; }
 
 @media screen and (min-width: 64em) {
  #grad21 { padding: 4em; } 
- #hero img { max-width: 400px; margin: 0 auto; } 
- .grid-50 { width: 50%; } }
+ #hero img { max-width: 400px; margin: 0 auto; } }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
   #grad21 { padding: 2em; } 
-  #hero img { max-width: 250px; margin: 0 auto; } 
- .grid-50 { width: 50%; } }
+  #hero img { max-width: 250px; margin: 0 auto; } }
 
 @media screen and (max-width: 42em) {
   #grad21 { padding: 1em; }
   #hero img { max-width: 150px; margin: 0 auto; } 
- .grid-50 { width: 100%; } }
+ .flex { width: 100%; } }
 
 p {
  line-height: 1.25;

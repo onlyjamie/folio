@@ -1,6 +1,6 @@
 body {
  background-size: cover;
- max-height: 100%;
+ height: 100%;
  margin: 0;
 }
 
@@ -77,10 +77,10 @@ body {
   #hero img { max-width: 250px; margin: 0 auto; } }
 
 @media screen and (max-width: 42em) {
-  #grad21 { padding: 1em; }
+  #grad21 { padding: 0; }
   #grad21 h1 { font-size: 2.5rem; }
   #hero img { max-width: 150px; margin: 0 auto; } 
- .flex { width: 100%; } }
+ /* .flex { width: 100%; } */ }
 
 p {
  line-height: 1.25;

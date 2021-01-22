@@ -86,7 +86,7 @@ p a:hover {
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
   #grad21 { padding: 2em; } 
-  #grad21 h1 { font-size: 3rem;
+  #grad21 h1 { font-size: 3rem; }
   #hero img { max-width: 250px; margin: 0 auto; } }
 
 @media screen and (max-width: 42em) {

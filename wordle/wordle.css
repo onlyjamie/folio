@@ -57,9 +57,9 @@
 .wo-caption {
   margin: 0 auto;
   max-width: 360px;
-  padding: 20px 1rem 1.5rem;
+  padding: 20px 1em 1.5em;
   text-align: center;
-  font-size: 0.8rem;
+  font-size: 0.9em;
 }
 
 .wo-grid {

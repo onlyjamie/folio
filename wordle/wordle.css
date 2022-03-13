@@ -12,7 +12,7 @@
   font-size: 14px;
 }
 
-@media screen and (min-width:250px) and (max-width: 320px) {
+@media screen and (min-width:250px) and (max-width: 420px) {
   #wordle { font-size: 18px; }
 }
 

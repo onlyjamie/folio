@@ -12,6 +12,10 @@
   font-size: 14px;
 }
 
+@media screen and (min-width:250px) and (max-width: 320px) {
+  #wordle { font-size: 18px; }
+}
+
 #wordle a {
   color: var(--wo-yellow);
   text-decoration: none;

@@ -1,0 +1,104 @@
+#wordle {
+  --wo-yellow: #c3ae56;
+  --wo-green: #79a76b;
+  --wo-white: #fff;
+  --wo-black: #38383a;
+  --wo-gray: #d3d6da;
+  --wo-blue: #82c1fc;
+  --wo-orange: #f57a3a;
+  --wo-tran: ease 0.8s;
+  font-family: helvetica, arial, sans-serif;
+  color: var(--wo-black);
+}
+
+#wordle a {
+  color: var(--wo-yellow);
+  text-decoration: none;
+  border-bottom: 1px solid var(--wo-gray);
+  transition: var(--wo-tran);
+}
+
+#wordle a:hover {
+  color: var(--wo-green);
+  border-bottom: 1px solid var(--wo-black);
+}
+
+.wo-top {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: var(--wo-white);
+  z-index: 2;
+}
+
+.wo-title {
+  text-align: center;
+  font-size: 1.7rem;
+  text-transform: uppercase;
+  margin: 2rem auto 0;
+}
+
+.wo-title p {
+  display: inline-block;
+  font-weight: bold;
+  background: var(--wo-green);
+  color: var(--wo-white);
+  width: 52px;
+  height: 52px;
+  line-height: 52px;
+  margin: 0;
+}
+
+.wo-title p:nth-child(2), .wo-title p:nth-child(6) {
+  background: var(--wo-yellow);
+}
+
+.wo-caption {
+  margin: 0 auto;
+  max-width: 360px;
+  padding: 20px 1rem 1.5rem;
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+.wo-grid {
+  position: relative;
+  top: 9rem;
+  margin: 1.5em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.wo-day {
+  display: inline-block;
+  text-align: center;
+  line-height: 1;
+  padding: 5px 20px 20px 20px;
+  border: 1px solid var(--wo-gray);
+  border-radius: 6px;
+  margin: 10px;
+  font-size: 1.5em;
+  opacity: 0.1;
+  filter: grayscale(0.75);
+  transition: var(--wo-tran);
+}
+
+.wo-day p {
+  font-size: 1em;
+  font-weight: 100;
+  line-height: 1;
+}
+
+.wo-day:hover {
+  opacity: 1;
+  filter: grayscale(0);
+}
+
+.wo-active {
+  opacity: 1;
+  filter: grayscale(0);
+  font-size: 2em;
+  align-self: center;
+  flex-basis: 80%;
+}

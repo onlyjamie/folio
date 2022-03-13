@@ -9,6 +9,7 @@
   --wo-tran: ease 0.8s;
   font-family: helvetica, arial, sans-serif;
   color: var(--wo-black);
+  font-size: 14px;
 }
 
 #wordle a {

@@ -13,7 +13,7 @@
 }
 
 @media screen and (min-width:250px) and (max-width: 420px) {
-  #wordle { font-size: 18px; }
+  #wordle { font-size: 18px !important; }
 }
 
 #wordle a {
@@ -105,5 +105,5 @@
   filter: grayscale(0);
   font-size: 2em;
   align-self: center;
-  flex-basis: 80%;
+  flex-basis: 90%;
 }
